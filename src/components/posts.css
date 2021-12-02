@@ -1,0 +1,89 @@
+
+:root{
+    --post-color:rgba(208, 188, 255, 0.836);
+}
+.outerDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.postDiv{
+    background-color: var(--post-color);
+    width: 400px;
+    height: 300px;
+    margin: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.content{
+    margin: 20px;
+    word-break: break-word;
+}
+.submission-form{
+    background-color:  var(--post-color);
+    width: 400px;
+    height: 320px;
+    margin-bottom: 10px;
+    z-index: 3;
+    box-shadow: -1px 8px 8px -3px rgba(0, 0, 0, 0.2);
+}
+.small-input{
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-right: 200px;
+}
+.large-input{
+    margin: 20px;
+    box-sizing: border-box;
+    height: 100px;
+    width: 355px;
+}
+.submit-button{
+    margin-left:300px;
+    color: white;
+    background-color: rgb(135, 97, 224);
+    border-radius: 10px;
+}
+.subtitle{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 25px;
+}
+.main-title{
+    text-shadow: 3px 2px rgb(226, 201, 255);
+    font-size: 60px;
+    background-image: linear-gradient(rgb(196, 153, 252), var(--post-color));
+    width: 400px;
+    height: 170px;
+    margin-top: 30px;
+    text-align: center;
+    padding-top: 20px;
+    z-index: 0;
+}
+.relative{
+    position: relative;
+}
+.img{
+    position: absolute;
+    left: -105%;
+    top: 11.5%;
+    height: 400px;
+    z-index: 1;
+    transform: rotate(4deg);
+}
+.name{
+    margin-top: 12px;
+    font-size: 35px;
+    font-weight:bold;
+    color: rgb(135, 97, 224);
+}
+.title{
+    margin-top: 12px;
+    font-size: 25px;
+    font-weight:normal;
+    color: rgb(88, 60, 153);
+}
+.context{
+    margin-top: 12px;
+    color: rgb(19, 6, 48);
+}
